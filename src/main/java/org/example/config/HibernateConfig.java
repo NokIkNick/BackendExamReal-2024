@@ -65,6 +65,13 @@ public class HibernateConfig {
 
     }
 
+    public static EntityManagerFactory getEntityManagerFactoryConfig(boolean isTesting){
+        if(isTesting) return getEntityManagerFactoryConfigForTesting();
+        boolean isDeployed = (System.getenv("DEPLOYED") != null);
+        if(isDeployed) return getEntityManagerFactoryConfigForDeployment();
+        return getEntityManagerFactoryConfig();
+    }
+
     public static EntityManagerFactory getEntityManagerFactoryConfig() {
         if (entityManagerFactory == null) entityManagerFactory = buildEntityFactoryConfig();
         return entityManagerFactory;
@@ -75,6 +82,37 @@ public class HibernateConfig {
         return entityManagerFactory;
 
     }
+
+    public static EntityManagerFactory getEntityManagerFactoryConfigForDeployment() {
+        if (entityManagerFactory == null) entityManagerFactory = setupEntityManagerFactoryConfigForDeployment();
+        return entityManagerFactory;
+    }
+
+
+    public static EntityManagerFactory setupEntityManagerFactoryConfigForDeployment(){
+        try {
+            Configuration configuration = new Configuration();
+
+            Properties props = new Properties();
+
+            props.put("hibernate.connection.url", System.getenv("CONNECTION_STR"));
+            props.put("hibernate.connection.username", System.getenv("DB_USERNAME"));
+            props.put("hibernate.connection.password", System.getenv("DB_PASSWORD"));
+
+            props.put("hibernate.dialect", "org.hibernate.dialect.PostgreSQLDialect"); // dialect for postgresql
+            props.put("hibernate.connection.driver_class", "org.postgresql.Driver"); // driver class for postgresql
+            props.put("hibernate.archive.autodetection", "class"); // hibernate scans for annotated classes
+            props.put("hibernate.current_session_context_class", "thread"); // hibernate current session context
+            props.put("hibernate.hbm2ddl.auto", "update"); // hibernate creates tables based on entities
+
+
+            return getEntityManagerFactory(configuration, props);
+        } catch (Throwable ex) {
+            System.err.println("Initial SessionFactory creation failed." + ex);
+            throw new ExceptionInInitializerError(ex);
+        }
+    };
+
     private static EntityManagerFactory setupHibernateConfigurationForTesting() {
         try {
             Configuration configuration = new Configuration();

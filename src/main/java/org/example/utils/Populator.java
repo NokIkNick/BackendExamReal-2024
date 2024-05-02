@@ -14,9 +14,9 @@ public class Populator {
         CarDAO cd = CarDAO.getInstance(isTesting);
         EntityManagerFactory emf;
         if(isTesting) {
-            emf = HibernateConfig.getEntityManagerFactoryConfigForTesting();
+            emf = HibernateConfig.getEntityManagerFactoryConfig(isTesting);
         }else {
-            emf = HibernateConfig.getEntityManagerFactoryConfig();
+            emf = HibernateConfig.getEntityManagerFactoryConfig(isTesting);
         }
 
         //String brand, String model, String make, int year, LocalDate firstRegistrationDate, double price

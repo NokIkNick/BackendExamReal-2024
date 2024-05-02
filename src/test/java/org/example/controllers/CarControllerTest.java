@@ -29,7 +29,7 @@ class CarControllerTest {
 
     @BeforeAll
     static void setupAll(){
-        emf = HibernateConfig.getEntityManagerFactoryConfigForTesting();
+        emf = HibernateConfig.getEntityManagerFactoryConfig(true);
         RestAssured.baseURI = "http://localhost:7778/api";
         ApplicationConfig applicationConfig = ApplicationConfig.getInstance();
         applicationConfig.initiateServer().startServer(7778).setExceptionHandling().setRoutes(Routes.getCarRoutes(isTesting, false)).checkSecurityRoles(isTesting);
