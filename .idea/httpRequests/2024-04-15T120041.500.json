@@ -1,6 +1,0 @@
-{
-  "status": 500,
-  "message": "class org.example.model.Car cannot be cast to class org.example.dtos.CarDTO (org.example.model.Car and org.example.dtos.CarDTO are in unnamed module of loader 'app')",
-  "timestamp": "2024-04-15T12:00:40.869678900",
-  "IP:": "127.0.0.1"
-}

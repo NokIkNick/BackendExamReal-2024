@@ -5,7 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e140786-c7a7-41ff-b576-960fd2302bb2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/http-client.env.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T114805.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T115347.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T115822.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120001.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120041.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120149.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120410.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120422.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120917.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T120931.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T121038.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T121103.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T121257.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T123439.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T123450.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T123509.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dev.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dev.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +39,7 @@
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Dockerfile" />
+        <option value="HTTP Public Environment File" />
       </list>
     </option>
   </component>
@@ -37,6 +58,9 @@
     &quot;accountId&quot;: &quot;1748c3a3-3835-4cc2-abe1-a6c18aa3bbd4&quot;
   }
 }</component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/src/main/java/org/example/dev.http" environment="dev" />
+  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -94,6 +118,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "rest.client.default.execution.environment": "dev",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   },
@@ -111,67 +136,29 @@
       <recent name="org.example.controllers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="HTTP Request.dev | Login as User:">
     <configuration name="dev | Get Cars" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/org/example/dev.http" index="4" requestIdentifier="Get Cars" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="dev | Login as Admin" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/org/example/dev.http" index="3" requestIdentifier="Login as Admin" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="CarControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restsecurity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="org.example.controllers.CarControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="dev | Login as User:" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/org/example/dev.http" index="3" requestIdentifier="Login as User:" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="CarControllerTest.create" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restsecurity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="org.example.controllers.CarControllerTest" />
-      <option name="METHOD_NAME" value="create" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="dev | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/org/example/dev.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
     </configuration>
-    <configuration name="CarControllerTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="restsecurity" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.controllers" />
-      <option name="MAIN_CLASS_NAME" value="org.example.controllers.CarControllerTest" />
-      <option name="METHOD_NAME" value="update" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="dev | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/org/example/dev.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.dev | Login as User:" />
+        <item itemvalue="HTTP Request.dev | #2" />
+        <item itemvalue="HTTP Request.dev | #1" />
         <item itemvalue="HTTP Request.dev | Get Cars" />
         <item itemvalue="HTTP Request.dev | Login as Admin" />
-        <item itemvalue="JUnit.CarControllerTest" />
-        <item itemvalue="JUnit.CarControllerTest.update" />
-        <item itemvalue="JUnit.CarControllerTest.create" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +189,7 @@
       <workItem from="1713160111291" duration="16274000" />
       <workItem from="1713259174297" duration="8625000" />
       <workItem from="1713446837008" duration="1046000" />
-      <workItem from="1714644936423" duration="4866000" />
+      <workItem from="1714644936423" duration="6454000" />
     </task>
     <servers />
   </component>

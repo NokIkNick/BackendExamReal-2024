@@ -1,6 +1,0 @@
-{
-  "status": 500,
-  "message": "deleted object would be re-saved by cascade (remove deleted object from associations): [org.example.model.Seller#Morten@Seller.dk]",
-  "timestamp": "2024-04-15T12:00:01.841344500",
-  "IP:": "127.0.0.1"
-}

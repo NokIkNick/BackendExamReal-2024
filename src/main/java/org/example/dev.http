@@ -1,17 +1,23 @@
+GET {{url}}
+###
+
+
 
 ### Register User:
-POST http://localhost:7070/api/auth/register
+POST {{url}}/auth/register
+Content-Type: application/json
 
 {
 
-"username":"testAdminBruger",
-"password":"enbedrekode"
+"username":"test",
+"password":"1234"
 
 }
 
 ### Login as User:
 
-POST http://localhost:7070/api/auth/login
+POST {{url}}/auth/login
+Content-Type: application/json
 
 {
 "username":"testBruger",

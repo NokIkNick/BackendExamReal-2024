@@ -1,3 +1,246 @@
+POST http://localhost:7070/api/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-05-02T140405.200.json
+
+###
+
+POST http://localhost:7070/api/auth/register
+Content-Type: application/json
+Content-Length: 42
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"test",
+"password":"1234"
+
+}
+
+<> 2024-05-02T140342.201.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/register
+Content-Type: application/json
+Content-Length: 42
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"test",
+"password":"1234"
+
+}
+
+<> 2024-05-02T140107.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/login
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-05-02T135942.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/login
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-05-02T135840.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/register
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"testBruger",
+"password":"engodkode"
+
+}
+
+<> 2024-05-02T135631.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/login
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-05-02T135408.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/register
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"testBruger",
+"password":"engodkode"
+
+}
+
+<> 2024-05-02T135400.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/login
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-05-02T135151.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/login
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-05-02T135128.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/register
+Content-Length: 53
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"testBruger",
+"password":"engodkode"
+
+}
+
+<> 2024-05-02T135105.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/register
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"testAdminBruger",
+"password":"enbedrekode"
+
+}
+
+<> 2024-05-02T135035.500.json
+
+###
+
+POST http://159.223.24.167:7070/api/auth/register
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"testAdminBruger",
+"password":"enbedrekode"
+
+}
+
+<> 2024-05-02T135022.500.json
+
+###
+
+GET http://159.223.24.167:7070/api
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-02T134916.403.json
+
+###
+
+POST http://159.223.24.167:7070/api/api
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-02T134837.404.json
+
+###
+
+POST http://159.223.24.167:7070/api
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-05-02T134830.404.json
+
+###
+
 GET http://localhost:7070/api/cars/
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY2ODkyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.4ebB6AuAkQWJM06H-l-BYfPUaD7p446PhDMmzWTtEQ0
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
@@ -447,212 +690,6 @@ Accept: */*
 }
 
 <> 2024-04-15T124553.200.json
-
-###
-
-GET http://localhost:7070/api/cars/
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5MDkwLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.8W3o5C27RbZlR2_C9DiFEuFuPtor-SG70XX8Jsd_MjA
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T123509.200.json
-
-###
-
-POST http://localhost:7070/api/auth/login
-Content-Length: 58
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"username":"testAdminBruger",
-"password":"enbedrekode"
-}
-
-<> 2024-04-15T123450.200.json
-
-###
-
-POST http://localhost:7070/api/auth/login
-Content-Length: 58
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"username":"testAdminBruger",
-"password":"enbedrekode"
-}
-
-<> 2024-04-15T123439.200.json
-
-###
-
-POST http://localhost:7070/api/cars/
-Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc3NjYzLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.wMAWv0n56RR1hliLa_Y8bnT8hfZEN-F5-T-yrws-0JE
-Content-Length: 153
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-    "brand":"Volkswagen",
-    "model":"Polo",
-    "make":"Volkswagen",
-    "year":2002,
-    "firstRegistrationDate":"2005-09-11",
-    "price":120.000
-}
-
-<> 2024-04-15T121257.200.json
-
-###
-
-POST http://localhost:7070/api/auth/login
-Content-Length: 58
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"username":"testAdminBruger",
-"password":"enbedrekode"
-}
-
-<> 2024-04-15T121103.200.json
-
-###
-
-POST http://localhost:7070/api/auth/login
-Content-Length: 51
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"username":"testBruger",
-"password":"engodkode"
-}
-
-<> 2024-04-15T121038.200.json
-
-###
-
-POST http://localhost:7070/api/auth/register
-Content-Length: 60
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-"username":"testAdminBruger",
-"password":"enbedrekode"
-
-}
-
-<> 2024-04-15T120931.201.json
-
-###
-
-POST http://localhost:7070/api/auth/register
-Content-Length: 53
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-"username":"testBruger",
-"password":"engodkode"
-
-}
-
-<> 2024-04-15T120917.201.json
-
-###
-
-DELETE http://localhost:7070/api/cars/4
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T120422.400.json
-
-###
-
-GET http://localhost:7070/api/cars/
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T120410.200.json
-
-###
-
-DELETE http://localhost:7070/api/cars/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T120149.500.json
-
-###
-
-DELETE http://localhost:7070/api/cars/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T120041.500.json
-
-###
-
-DELETE http://localhost:7070/api/cars/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T120001.500.json
-
-###
-
-DELETE http://localhost:7070/api/cars/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T115822.500.json
-
-###
-
-DELETE http://localhost:7070/api/cars/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T115347.500.json
-
-###
-
-DELETE http://localhost:7070/api/cars/1
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-content-length: 0
-
-<> 2024-04-15T114805.500.json
 
 ###
 
