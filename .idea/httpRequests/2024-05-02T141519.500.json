@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "message": "could not execute statement [ERROR: duplicate key value violates unique constraint \"users_pkey\"\n  Detail: Key (username)=(test) already exists.] [insert into users (password,username) values (?,?)]",
+  "timestamp": "2024-05-02T12:15:18.761831684",
+  "IP:": "5.179.80.205"
+}
