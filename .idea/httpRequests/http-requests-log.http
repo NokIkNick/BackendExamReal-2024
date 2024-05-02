@@ -1,155 +1,658 @@
-GET http://localhost:7070/api/protected/user_demo
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoiQ29vbGd1dG1hbmQiLCJleHAiOjE3MTI4NDMzMzYsInJvbGVzIjoiVVNFUiIsInVzZXJuYW1lIjoiQ29vbGd1dG1hbmQifQ.3V8Ih8rjXeD0nlcgCAKdoRPL-w6GEESvopq4DD3nw2s
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY2ODkyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.4ebB6AuAkQWJM06H-l-BYfPUaD7p446PhDMmzWTtEQ0
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-04-11T151938.200.json
+<> 2024-04-16T125826.404.json
 
 ###
 
 POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-16T125812.200.json
+
+###
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY1MzAyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.T1JLShvNccIJlsYCTU_-nQ50_PFofBj8j7do8wQOMBU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T123211.200.json
+
+###
+
+DELETE http://localhost:7070/api/cars/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY1MzAyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.T1JLShvNccIJlsYCTU_-nQ50_PFofBj8j7do8wQOMBU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T123205.200.json
+
+###
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY1MzAyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.T1JLShvNccIJlsYCTU_-nQ50_PFofBj8j7do8wQOMBU
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T123152.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-16T123142.200.json
+
+###
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYyNTAyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.HAko8cTyLglpi8qHlYnj4A_pKDbupy0Srk5fmHSiMfo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T123133.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY0OTE0LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.mq9O2Yo3kVKk2ZmFCn5SIkZzGdF4hJruXlsvsG4na3o
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T122923.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY0OTE0LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.mq9O2Yo3kVKk2ZmFCn5SIkZzGdF4hJruXlsvsG4na3o
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T122739.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY0OTE0LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.mq9O2Yo3kVKk2ZmFCn5SIkZzGdF4hJruXlsvsG4na3o
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T122531.500.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-16T122514.200.json
+
+###
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYyNTAyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.HAko8cTyLglpi8qHlYnj4A_pKDbupy0Srk5fmHSiMfo
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T114514.404.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-16T114502.200.json
+
+###
+
+GET http://localhost:7070/api/cars/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T114452.500.json
+
+###
+
+GET http://localhost:7070/api/cars/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T114343.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T113544.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T113232.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T113135.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T113101.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T112455.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T112448.500.json
+
+###
+
+PUT http://localhost:7070/api/cars/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+Content-Length: 158
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "brand":"VolkswagenNew",
+    "model":"Tiguan",
+    "make":"Volkswagen",
+    "year":2004,
+    "firstRegistrationDate":"2009-09-11",
+    "price":125.000
+}
+
+<> 2024-04-16T112444.200.json
+
+###
+
+POST http://localhost:7070/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "brand":"Volkswagen",
+    "model":"Polo",
+    "make":"Volkswagen",
+    "year":2002,
+    "firstRegistrationDate":"2005-09-11",
+    "price":120.000
+}
+
+<> 2024-04-16T112427.200.json
+
+###
+
+POST http://localhost:7070/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "brand":"Volkswagen",
+    "model":"Polo",
+    "make":"Volkswagen",
+    "year":2002,
+    "firstRegistrationDate":"2005-09-11",
+    "price":120.000
+}
+
+<> 2024-04-16T112418.500.json
+
+###
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-16T112411.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-16T112342.200.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T124733.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/4
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc3NjYzLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.wMAWv0n56RR1hliLa_Y8bnT8hfZEN-F5-T-yrws-0JE
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T124725.500.json
+
+###
+
+PUT http://localhost:7070/api/cars/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+Content-Length: 155
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "brand":"Volkswagen",
+    "model":"Tiguan",
+    "make":"Volkswagen",
+    "year":2004,
+    "firstRegistrationDate":"2009-09-11",
+    "price":125.000
+}
+
+<> 2024-04-15T124719.200.json
+
+###
+
+POST http://localhost:7070/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "brand":"Volkswagen",
+    "model":"Polo",
+    "make":"Volkswagen",
+    "year":2002,
+    "firstRegistrationDate":"2005-09-11",
+    "price":120.000
+}
+
+<> 2024-04-15T124704.200.json
+
+###
+
+GET http://localhost:7070/api/cars/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T124650.200.json
+
+###
+
+GET http://localhost:7070/api/cars/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T124612.404.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-15T124556.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-04-15T124553.200.json
+
+###
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5MDkwLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.8W3o5C27RbZlR2_C9DiFEuFuPtor-SG70XX8Jsd_MjA
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T123509.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-15T123450.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-15T123439.200.json
+
+###
+
+POST http://localhost:7070/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc3NjYzLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.wMAWv0n56RR1hliLa_Y8bnT8hfZEN-F5-T-yrws-0JE
+Content-Length: 153
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+    "brand":"Volkswagen",
+    "model":"Polo",
+    "make":"Volkswagen",
+    "year":2002,
+    "firstRegistrationDate":"2005-09-11",
+    "price":120.000
+}
+
+<> 2024-04-15T121257.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 58
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testAdminBruger",
+"password":"enbedrekode"
+}
+
+<> 2024-04-15T121103.200.json
+
+###
+
+POST http://localhost:7070/api/auth/login
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+"username":"testBruger",
+"password":"engodkode"
+}
+
+<> 2024-04-15T121038.200.json
+
+###
+
+POST http://localhost:7070/api/auth/register
+Content-Length: 60
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+
+"username":"testAdminBruger",
+"password":"enbedrekode"
+
+}
+
+<> 2024-04-15T120931.201.json
+
+###
+
+POST http://localhost:7070/api/auth/register
 Content-Length: 53
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
 {
-"username":"Coolgutmand",
-"password":"coolkode21"
-}
 
-<> 2024-04-11T151856.200.json
-
-###
-
-POST http://localhost:7070/api/auth/register
-Content-Length: 55
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-"username":"Coolgutmand",
-"password":"coolkode21"
+"username":"testBruger",
+"password":"engodkode"
 
 }
 
-<> 2024-04-11T151846.201.json
+<> 2024-04-15T120917.201.json
 
 ###
 
-POST http://localhost:7070/api/auth/register
-Content-Length: 55
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-"username":"Coolgutmand",
-"password":"coolkode21"
-
-}
-
-<> 2024-04-11T151342.500.json
-
-###
-
-POST http://localhost:7070/api/auth/register
-Content-Length: 55
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-
-"username":"Coolgutmand",
-"password":"coolkode21"
-
-}
-
-<> 2024-04-11T151153.500.json
-
-###
-
-GET http://localhost:7070/api/getAll
+DELETE http://localhost:7070/api/cars/4
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-04-11T150509.200.json
+<> 2024-04-15T120422.400.json
 
 ###
 
-POST http://localhost:7070/api/create
-Content-Length: 17
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"name":"test"
-}
-
-<> 2024-04-11T150458.200.json
-
-###
-
-POST http://localhost:7070/api/create
-Content-Length: 17
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-"name":"test"
-}
-
-<> 2024-04-11T150239.500.json
-
-###
-
-GET http://localhost:7070/api/getAll
+GET http://localhost:7070/api/cars/
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-04-11T150108.404.json
+<> 2024-04-15T120410.200.json
 
 ###
 
-GET http://localhost:7070/api/getAll
+DELETE http://localhost:7070/api/cars/1
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-04-11T145628.404.json
+<> 2024-04-15T120149.500.json
 
 ###
 
-GET http://localhost:7070/api/getAll
+DELETE http://localhost:7070/api/cars/1
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-04-11T143854.200.json
+<> 2024-04-15T120041.500.json
 
 ###
 
-GET http://localhost:7070/api/getAll
+DELETE http://localhost:7070/api/cars/1
 User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-04-11T143747.200.json
+<> 2024-04-15T120001.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T115822.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T115347.500.json
+
+###
+
+DELETE http://localhost:7070/api/cars/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-04-15T114805.500.json
 
 ###
 

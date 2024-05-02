@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "message": "org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401",
+  "timestamp": "2024-04-15T12:47:25.190676400",
+  "IP:": "127.0.0.1"
+}

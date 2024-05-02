@@ -1,0 +1,54 @@
+[
+  {
+    "id": 4,
+    "brand": "Lamborghini",
+    "model": "Fast",
+    "make": "Lamborghini",
+    "year": 2011,
+    "firstRegistrationDate": [
+      2020,
+      5,
+      2
+    ],
+    "price": 2900000.0
+  },
+  {
+    "id": 5,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "make": "Volkswagen",
+    "year": 2002,
+    "firstRegistrationDate": [
+      2005,
+      9,
+      11
+    ],
+    "price": 120.0
+  },
+  {
+    "id": 6,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "make": "Volkswagen",
+    "year": 2002,
+    "firstRegistrationDate": [
+      2005,
+      9,
+      11
+    ],
+    "price": 120.0
+  },
+  {
+    "id": 3,
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "make": "Volkswagen",
+    "year": 2004,
+    "firstRegistrationDate": [
+      2009,
+      9,
+      11
+    ],
+    "price": 125.0
+  }
+]

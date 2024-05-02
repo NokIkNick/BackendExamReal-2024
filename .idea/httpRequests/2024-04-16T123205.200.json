@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "brand": "BMW",
+  "model": "Cool",
+  "make": "BMW",
+  "year": 2011,
+  "firstRegistrationDate": [
+    2020,
+    5,
+    2
+  ],
+  "price": 2900000.0
+}

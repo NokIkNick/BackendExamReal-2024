@@ -60,11 +60,15 @@ public class ApplicationConfig {
 
     public ApplicationConfig setExceptionHandling(){
         app.exception(ApiException.class, (e, ctx) -> {
-            ObjectNode exception = Logger.log(e.getStatus(), e.getMessage());
+            ObjectNode exception = Logger.log(e.getStatus(), e.getMessage(),ctx.ip());
             ctx.json(exception).status(e.getStatus());
         });
+        app.exception(NumberFormatException.class, (e, ctx) -> {
+            ObjectNode exception = Logger.log(HttpStatus.forStatus(400), e.getMessage(),ctx.ip());
+            ctx.json(exception).status(HttpStatus.forStatus(400));
+        });
         app.exception(Exception.class, (e, ctx) -> {
-            ObjectNode exception = Logger.log(HttpStatus.forStatus(500), e.getMessage());
+            ObjectNode exception = Logger.log(HttpStatus.forStatus(500), e.getMessage(), ctx.ip());
             ctx.json(exception).status(HttpStatus.forStatus(500));
         });
         return appConfig;
@@ -112,8 +116,6 @@ public class ApplicationConfig {
     }
 
     public boolean authorize(UserDTO user, Set<String> allowedRoles) {
-        // Called from the ApplicationConfig.setSecurityRoles
-
         AtomicBoolean hasAccess = new AtomicBoolean(false); // Since we update this in a lambda expression, we need to use an AtomicBoolean
         if (user != null) {
             user.getRoles().stream().forEach(role -> {

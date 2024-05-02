@@ -1,32 +1,92 @@
+
+### Register User:
 POST http://localhost:7070/api/auth/register
 
 {
 
-"username":"Coolgutmand",
-"password":"coolkode21"
+"username":"testAdminBruger",
+"password":"enbedrekode"
 
 }
-###
+
+### Login as User:
 
 POST http://localhost:7070/api/auth/login
 
 {
-"username":"Coolgutmand",
-"password":"coolkode21"
+"username":"testBruger",
+"password":"engodkode"
 }
 
-###
+### Login as Admin
 
-GET http://localhost:7070/api/protected/user_demo
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoiQ29vbGd1dG1hbmQiLCJleHAiOjE3MTI4NDMzMzYsInJvbGVzIjoiVVNFUiIsInVzZXJuYW1lIjoiQ29vbGd1dG1hbmQifQ.3V8Ih8rjXeD0nlcgCAKdoRPL-w6GEESvopq4DD3nw2s
-###
-
-
-GET http://localhost:7070/api/getAll
-###
-
-POST http://localhost:7070/api/create
+POST http://localhost:7070/api/auth/login
 
 {
-"name":"test"
+"username":"testAdminBruger",
+"password":"enbedrekode"
 }
+
+### Get Cars
+
+GET http://localhost:7070/api/cars/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY2ODkyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.4ebB6AuAkQWJM06H-l-BYfPUaD7p446PhDMmzWTtEQ0
+
+### Get specific car
+
+GET http://localhost:7070/api/cars/3
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc5NzU2LCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.SrFxjzhT3Ofrru3KcmadtiaJSqh4IlLhnbO-C8ltOvM
+
+### Create car
+
+POST http://localhost:7070/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+
+{
+    "brand":"Volkswagen",
+    "model":"Polo",
+    "make":"Volkswagen",
+    "year":2002,
+    "firstRegistrationDate":"2005-09-11",
+    "price":120.000
+}
+
+### Create car
+
+POST http://localhost:7070/api/cars/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMTc3NjYzLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.wMAWv0n56RR1hliLa_Y8bnT8hfZEN-F5-T-yrws-0JE
+
+
+{
+  "brand":"Citroen",
+  "model":"Cactus 5",
+  "make":"Citroen",
+  "year":2010,
+  "firstRegistrationDate":"2012-08-07",
+  "price":175.000
+}
+
+### Update car
+
+PUT http://localhost:7070/api/cars/3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjYxMjIyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.0-fyWfSfBaVU56jJROqgIdT4qrGWSKAfZ0kEerRLftk
+
+{
+    "brand":"VolkswagenNew",
+    "model":"Tiguan",
+    "make":"Volkswagen",
+    "year":2004,
+    "firstRegistrationDate":"2009-09-11",
+    "price":125.000
+}
+
+
+### Delete Car
+
+DELETE http://localhost:7070/api/cars/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJOaWNrbGFzIFcuIiwic3ViIjoidGVzdEFkbWluQnJ1Z2VyIiwiZXhwIjoxNzEzMjY1MzAyLCJyb2xlcyI6IkFETUlOIiwidXNlcm5hbWUiOiJ0ZXN0QWRtaW5CcnVnZXIifQ.T1JLShvNccIJlsYCTU_-nQ50_PFofBj8j7do8wQOMBU
+
+###

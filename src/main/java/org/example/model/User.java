@@ -37,6 +37,12 @@ public class User {
         this.password = password;
     }
 
+    public User(String username, String password, Role role){
+        this.username = username;
+        this.password = password;
+        addRole(role);
+    }
+
 
     public Set<String> getRolesToString(){
         return roles.stream().map(Role::getName).collect(Collectors.toSet());

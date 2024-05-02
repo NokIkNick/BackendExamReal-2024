@@ -6,9 +6,9 @@ import org.example.utils.Updater;
 
 import java.util.*;
 
-public class MemoryDAO<T extends DTO<Integer>, K> implements IDAO<T, K>{
+public abstract class MemoryDAO<T extends DTO<Integer>, K> implements IDAO<T, K>{
 
-    private Set<T> memory = new LinkedHashSet<>();
+    public Set<T> memory = new LinkedHashSet<>();
     private static int idCounter = 0;
 
     @Override

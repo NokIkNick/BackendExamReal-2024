@@ -1,6 +1,7 @@
 package org.example.daos;
 
 import org.example.exceptions.ApiException;
+import org.example.model.Car;
 
 import java.util.List;
 
@@ -15,6 +16,5 @@ public interface IDAO<T, K> {
     T update(T in, K id) throws ApiException;
 
     T delete(K id) throws ApiException;
-
 
 }

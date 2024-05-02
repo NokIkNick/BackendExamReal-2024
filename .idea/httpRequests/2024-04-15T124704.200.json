@@ -1,0 +1,13 @@
+{
+  "id": 6,
+  "brand": "Volkswagen",
+  "model": "Polo",
+  "make": "Volkswagen",
+  "year": 2002,
+  "firstRegistrationDate": [
+    2005,
+    9,
+    11
+  ],
+  "price": 120.0
+}

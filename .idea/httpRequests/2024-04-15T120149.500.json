@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "message": "Cannot invoke \"org.example.model.Car.getId()\" because \"car\" is null",
+  "timestamp": "2024-04-15T12:01:49.483051100",
+  "IP:": "127.0.0.1"
+}

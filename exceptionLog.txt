@@ -1,34 +1,292 @@
 status: 404
 message: Memory storage is empty, 404
-timestamp: 2024-04-11T14:37:47.633934100
-status: 404
-message: Memory storage is empty, 404
-timestamp: 2024-04-11T14:38:54.001643600----------------------------------------------------------------------------------
-status: 404
-message: Memory storage is empty, 404
-timestamp: 2024-04-11T14:56:28.679061500
-----------------------------------------------------------------------------------
-status: 404
-message: Not found
-timestamp: 2024-04-11T14:56:28.774064
+timestamp: 2024-04-15T09:16:30.165797700
+IP:: 127.0.0.1
 ----------------------------------------------------------------------------------
 status: 404
 message: Memory storage is empty, 404
-timestamp: 2024-04-11T15:01:08.669581600
+timestamp: 2024-04-15T09:29:44.120194800
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 404
+message: Memory storage is empty, 404
+timestamp: 2024-04-15T09:33:35.557360900
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 404
+message: Not found, 404
+timestamp: 2024-04-15T09:35:40.359937800
+IP:: 127.0.0.1
 ----------------------------------------------------------------------------------
 status: 500
-message: Cannot construct instance of `org.example.dtos.TestDTO` (although at least one Creator exists): cannot deserialize from Object value (no delegate- or property-based Creator)
- at [Source: (String)"{
-"name":"test"
-}"; line: 2, column: 1]
-timestamp: 2024-04-11T15:02:39.203708100
+message: class java.lang.Integer cannot be cast to class org.example.dtos.DTO (java.lang.Integer is in module java.base of loader 'bootstrap'; org.example.dtos.DTO is in unnamed module of loader 'app')
+timestamp: 2024-04-15T09:36:35.315898500
+IP:: 127.0.0.1
 ----------------------------------------------------------------------------------
 status: 500
-message: No value present
-timestamp: 2024-04-11T15:11:53.181528
+message: class java.lang.Integer cannot be cast to class org.example.dtos.DTO (java.lang.Integer is in module java.base of loader 'bootstrap'; org.example.dtos.DTO is in unnamed module of loader 'app')
+timestamp: 2024-04-15T09:37:39.115550500
+IP:: 127.0.0.1
 ----------------------------------------------------------------------------------
 status: 500
-message: could not execute statement [ERROR: duplicate key value violates unique constraint "users_pkey"
-  Detail: Key (username)=(Coolgutmand) already exists.] [/* insert for org.example.model.User */insert into users (password,username) values (?,?)]
-timestamp: 2024-04-11T15:13:42.422040300
+message: class java.lang.Integer cannot be cast to class org.example.dtos.DTO (java.lang.Integer is in module java.base of loader 'bootstrap'; org.example.dtos.DTO is in unnamed module of loader 'app')
+timestamp: 2024-04-15T09:39:23.166085
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: class org.example.model.Car cannot be cast to class org.example.dtos.CarDTO (org.example.model.Car and org.example.dtos.CarDTO are in unnamed module of loader 'app')
+timestamp: 2024-04-15T10:43:11.339163400
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: class org.example.model.Car cannot be cast to class org.example.dtos.CarDTO (org.example.model.Car and org.example.dtos.CarDTO are in unnamed module of loader 'app')
+timestamp: 2024-04-15T10:43:58.631188
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: Unable to locate persister: org.example.dtos.CarDTO
+timestamp: 2024-04-15T10:54:41.361799800
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:23:28.066142900
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:24:18.646297300
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:25:01.690476600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:27:25.072884200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:30:34.272136600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:37:33.804234200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "seller" violates foreign key constraint "fkl85vyrh5utkv5ko758vndh1u7" on table "car"
+  Detail: Key (email)=(Morten@Seller.dk) is still referenced from table "car".] [/* delete for org.example.model.Seller */delete from Seller where email=?]
+timestamp: 2024-04-15T11:38:46.684341300
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:40:06.619746100
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:42:54.676089100
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.hibernate.query.sqm.UnknownEntityException: Could not resolve target entity 'seller_car'
+timestamp: 2024-04-15T11:48:05.377819
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:53:47.351460300
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(1) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T11:58:22.454713300
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: deleted object would be re-saved by cascade (remove deleted object from associations): [org.example.model.Seller#Morten@Seller.dk]
+timestamp: 2024-04-15T12:00:01.839344200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: class org.example.model.Car cannot be cast to class org.example.dtos.CarDTO (org.example.model.Car and org.example.dtos.CarDTO are in unnamed module of loader 'app')
+timestamp: 2024-04-15T12:00:40.868679700
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: Cannot invoke "org.example.model.Car.getId()" because "car" is null
+timestamp: 2024-04-15T12:01:49.481049200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: Cannot invoke "org.example.model.Car.getId()" because "car" is null
+timestamp: 2024-04-15T12:03:54.436095500
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 400
+message: null
+timestamp: 2024-04-15T12:04:22.163609700
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-15T12:29:33.913763600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-15T12:30:36.341244600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-15T12:31:13.819064600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-15T12:32:52.851070
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-15T12:36:03.044394400
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: Infinite recursion (StackOverflowError) (through reference chain: org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"]->org.example.model.Seller["cars"]->org.hibernate.collection.spi.PersistentBag[0]->org.example.model.Car["seller"])
+timestamp: 2024-04-15T12:39:35.062554800
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized with roles: [ADMIN], 403
+timestamp: 2024-04-15T12:42:40.679598
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 404
+message: No item was found with key: 1, 404
+timestamp: 2024-04-15T12:46:12.304675700
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-15T12:47:25.190676400
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(4) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-15T12:47:33.746051600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-16T11:24:18.548063
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-16T11:24:48.850757900
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(4) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-16T11:24:55.896687900
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(4) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-16T11:31:01.175494200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(4) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-16T11:31:35.853657700
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "car" violates foreign key constraint "fki42x39nuf5njcq8ivw0jx272d" on table "seller_car"
+  Detail: Key (id)=(4) is still referenced from table "seller_car".] [/* delete for org.example.model.Car */delete from Car where id=?]
+timestamp: 2024-04-16T11:32:32.792206600
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: could not execute statement [ERROR: update or delete on table "seller" violates foreign key constraint "fkl85vyrh5utkv5ko758vndh1u7" on table "car"
+  Detail: Key (email)=(Lara@Seller.dk) is still referenced from table "car".] [/* delete for org.example.model.Seller */delete from Seller where email=?]
+timestamp: 2024-04-16T11:35:43.813986500
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized with roles: [ADMIN], 403
+timestamp: 2024-04-16T11:41:31.220553100
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-16T11:43:43.446184
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-16T11:44:52.601944200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 404
+message: Memory storage is empty, 404
+timestamp: 2024-04-16T11:45:14.809885100
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: null
+timestamp: 2024-04-16T12:25:31.152860300
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: java.lang.UnsupportedOperationException
+timestamp: 2024-04-16T12:27:39.689827200
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: java.lang.UnsupportedOperationException
+timestamp: 2024-04-16T12:29:23.773802400
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: org.example.exceptions.ApiException: Unauthorized. Could not verify token, 401
+timestamp: 2024-04-16T12:31:33.610192300
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 500
+message: Cannot invoke "org.example.model.Car.getId()" because "car" is null
+timestamp: 2024-04-16T12:44:40.687474800
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 404
+message: No item was found with key: 1, 404
+timestamp: 2024-04-16T12:44:41.064858400
+IP:: 127.0.0.1
+----------------------------------------------------------------------------------
+status: 404
+message: Memory storage is empty, 404
+timestamp: 2024-04-16T12:58:26.886171200
+IP:: 127.0.0.1
 ----------------------------------------------------------------------------------

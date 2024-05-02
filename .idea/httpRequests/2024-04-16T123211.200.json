@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "make": "Volkswagen",
+    "year": 2007,
+    "firstRegistrationDate": [
+      2010,
+      9,
+      12
+    ],
+    "price": 125000.0
+  },
+  {
+    "id": 2,
+    "brand": "Volkswagen",
+    "model": "Up",
+    "make": "Volkswagen",
+    "year": 2005,
+    "firstRegistrationDate": [
+      2007,
+      3,
+      8
+    ],
+    "price": 100000.0
+  },
+  {
+    "id": 3,
+    "brand": "Citroen",
+    "model": "Cactus 3",
+    "make": "Citroen",
+    "year": 2003,
+    "firstRegistrationDate": [
+      2005,
+      1,
+      28
+    ],
+    "price": 190000.0
+  },
+  {
+    "id": 4,
+    "brand": "Lamborghini",
+    "model": "Fast",
+    "make": "Lamborghini",
+    "year": 2011,
+    "firstRegistrationDate": [
+      2020,
+      5,
+      2
+    ],
+    "price": 2900000.0
+  }
+]

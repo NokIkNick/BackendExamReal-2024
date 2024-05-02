@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "brand": "VolkswagenNew",
+  "model": "Tiguan",
+  "make": "Volkswagen",
+  "year": 2004,
+  "firstRegistrationDate": [
+    2009,
+    9,
+    11
+  ],
+  "price": 125.0
+}

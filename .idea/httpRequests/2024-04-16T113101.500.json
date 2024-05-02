@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "message": "could not execute statement [ERROR: update or delete on table \"car\" violates foreign key constraint \"fki42x39nuf5njcq8ivw0jx272d\" on table \"seller_car\"\n  Detail: Key (id)=(4) is still referenced from table \"seller_car\".] [/* delete for org.example.model.Car */delete from Car where id=?]",
+  "timestamp": "2024-04-16T11:31:01.175494200",
+  "IP:": "127.0.0.1"
+}

@@ -3,6 +3,7 @@ package org.example.daos;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.TypedQuery;
 import org.example.config.HibernateConfig;
+import org.example.model.Car;
 
 import java.util.ArrayList;
 import java.util.List;

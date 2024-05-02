@@ -12,7 +12,7 @@ public class Logger {
 
     private static ObjectMapper mapper = new ObjectMapper();
 
-    public static ObjectNode log(HttpStatus status, String message){
+    public synchronized static ObjectNode log(HttpStatus status, String message){
         ObjectNode node = mapper.createObjectNode();
         try(FileWriter fileWriter = new FileWriter("exceptionLog.txt", true)){
             fileWriter.write("status: "+ status.getCode());
@@ -27,6 +27,31 @@ public class Logger {
             node.put("status", status.getCode());
             node.put("message", message);
             node.put("timestamp", LocalDateTime.now().toString());
+            return node;
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+        return node;
+    }
+
+    public synchronized static ObjectNode log(HttpStatus status, String message, String ip){
+        ObjectNode node = mapper.createObjectNode();
+        try(FileWriter fileWriter = new FileWriter("exceptionLog.txt", true)){
+            fileWriter.write("status: "+ status.getCode());
+            fileWriter.append("\n");
+            fileWriter.write("message: "+message);
+            fileWriter.append("\n");
+            fileWriter.write("timestamp: "+ LocalDateTime.now().toString());
+            fileWriter.append("\n");
+            fileWriter.write("IP:: "+ ip);
+            fileWriter.append("\n");
+            fileWriter.append("----------------------------------------------------------------------------------");
+            fileWriter.append("\n");
+
+            node.put("status", status.getCode());
+            node.put("message", message);
+            node.put("timestamp", LocalDateTime.now().toString());
+            node.put("IP:", ip);
             return node;
         }catch (IOException e){
             e.printStackTrace();

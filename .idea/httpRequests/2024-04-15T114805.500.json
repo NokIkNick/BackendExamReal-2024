@@ -1,0 +1,6 @@
+{
+  "status": 500,
+  "message": "org.hibernate.query.sqm.UnknownEntityException: Could not resolve target entity 'seller_car'",
+  "timestamp": "2024-04-15T11:48:05.379757700",
+  "IP:": "127.0.0.1"
+}
