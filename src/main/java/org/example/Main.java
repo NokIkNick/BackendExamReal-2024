@@ -11,7 +11,7 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         boolean isTesting = false;
-        boolean onMemory = true;
+        boolean onMemory = false;
         ApplicationConfig app = ApplicationConfig.getInstance()
                 .initiateServer()
                 .setExceptionHandling()
