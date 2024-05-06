@@ -109,8 +109,7 @@ public class SecurityController {
 
     public UserDTO verifyToken(String token) throws ApiException {
         boolean IS_DEPLOYED = (System.getenv("DEPLOYED") != null);
-        //String SECRET = IS_DEPLOYED ? System.getenv("SECRET_KEY") : Utils.getPropertyValue("SECRET_KEY", "config.properties");
-        String SECRET = "ghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgr";
+        String SECRET = IS_DEPLOYED ? System.getenv("SECRET_KEY") : "ghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgrfeghjyhtgr";
         try {
             if(tokenUtils.tokenIsValid(token, SECRET) && tokenUtils.tokenNotExpired(token)){
                 return tokenUtils.getUserWithRolesFromToken(token);
