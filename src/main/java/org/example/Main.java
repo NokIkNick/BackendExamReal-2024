@@ -16,6 +16,7 @@ public class Main {
                 .initiateServer()
                 .setExceptionHandling()
                 .startServer(7070).setRoutes(Routes.getCarRoutes(isTesting, onMemory))
+                .configureCors()
                 .checkSecurityRoles(isTesting);
         //Populator.populate(isTesting);
 
