@@ -20,7 +20,7 @@ public class Routes {
         return () -> {
             before(sc.authenticate());
             path("/", () -> {
-                get("/", ctx -> ctx.json(objectMapper.createObjectNode().put("Message", "Connected Successfully")), roles.ANYONE);
+                get("/", ctx -> ctx.json(objectMapper.createObjectNode().put("Message", "Connected Successfully")).header("Access-Control-Allow-Origin","*"), roles.ANYONE);
             });
             path("/auth", () -> {
                 post("/login", sc.login(), roles.ANYONE);

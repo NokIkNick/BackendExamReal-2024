@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e140786-c7a7-41ff-b576-960fd2302bb2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T124719.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T124725.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-15T124733.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-04-16T112342.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ce33a628-5c50-4ef3-9f5c-51f5a8df1fd5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dev.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dev.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/config/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/config/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/controllers/SecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/controllers/SecurityController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,9 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -62,58 +63,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.All in dev.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #2.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #3.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #4.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #5.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #6.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #7.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #8.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | #9.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Create car#1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Delete Car.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Get Cars.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Get specific car.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Login as Admin.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Login as User:.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.dev | Update car.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarControllerTest.create.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarControllerTest.getAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarControllerTest.getById.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CarControllerTest.update.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.restsecurity [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.restsecurity [test].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nickl/Desktop/GitHub/BackendExamReal-2024&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rest.client.default.execution.environment&quot;: &quot;prod&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "HTTP Request.All in dev.executor": "Run",
+    "HTTP Request.dev | #1.executor": "Run",
+    "HTTP Request.dev | #2.executor": "Run",
+    "HTTP Request.dev | #3.executor": "Run",
+    "HTTP Request.dev | #4.executor": "Run",
+    "HTTP Request.dev | #5.executor": "Run",
+    "HTTP Request.dev | #6.executor": "Run",
+    "HTTP Request.dev | #7.executor": "Run",
+    "HTTP Request.dev | #8.executor": "Run",
+    "HTTP Request.dev | #9.executor": "Run",
+    "HTTP Request.dev | Create car#1.executor": "Run",
+    "HTTP Request.dev | Delete Car.executor": "Run",
+    "HTTP Request.dev | Get Cars.executor": "Run",
+    "HTTP Request.dev | Get specific car.executor": "Run",
+    "HTTP Request.dev | Login as Admin.executor": "Run",
+    "HTTP Request.dev | Login as User:.executor": "Run",
+    "HTTP Request.dev | Update car.executor": "Run",
+    "JUnit.CarControllerTest.create.executor": "Run",
+    "JUnit.CarControllerTest.executor": "Run",
+    "JUnit.CarControllerTest.getAll.executor": "Run",
+    "JUnit.CarControllerTest.getById.executor": "Run",
+    "JUnit.CarControllerTest.update.executor": "Run",
+    "Maven.restsecurity [install].executor": "Run",
+    "Maven.restsecurity [test].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Nicklas/Desktop/GitHub/BackendExamReal-2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rest.client.default.execution.environment": "prod",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -151,8 +152,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
       </set>
     </attachedChunks>
   </component>
@@ -177,6 +178,7 @@
       <workItem from="1713446837008" duration="1046000" />
       <workItem from="1714644936423" duration="8047000" />
       <workItem from="1714979708046" duration="5210000" />
+      <workItem from="1715265506159" duration="994000" />
     </task>
     <servers />
   </component>
