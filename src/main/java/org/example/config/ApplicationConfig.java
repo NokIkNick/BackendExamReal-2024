@@ -140,6 +140,6 @@ public class ApplicationConfig {
             ctx.header("Access-Control-Allow-Headers", "Content-Type");
         });
 
-        return this;
+        return appConfig;
     }
 }
