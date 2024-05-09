@@ -129,12 +129,12 @@ public class ApplicationConfig {
 
     public ApplicationConfig configureCors() {
         app.before(ctx -> {
-            ctx.header("Access-Control-Allow-Origin", "");
+            ctx.header("Access-Control-Allow-Origin", "*");
             ctx.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
             ctx.header("Access-Control-Allow-Headers", "Content-Type");
         });
 
-        app.options("/", ctx -> {
+        app.options("/*", ctx -> {
             ctx.header("Access-Control-Allow-Origin", "*");
             ctx.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
             ctx.header("Access-Control-Allow-Headers", "Content-Type");
