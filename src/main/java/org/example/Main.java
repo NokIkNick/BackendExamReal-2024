@@ -18,17 +18,6 @@ public class Main {
                 .startServer(7070).setRoutes(Routes.getCarRoutes(isTesting, onMemory))
                 .configureCors()
                 .checkSecurityRoles(isTesting);
-        //Populator.populate(isTesting);
-
-        CarDAOMock cdm = CarDAOMock.getInstance();
-        try{
-            cdm.create(new CarDTO(1,"testBrand","testModel1", "testMake1", 2009, LocalDate.now(),2500000));
-            cdm.create(new CarDTO(1,"testBrand","testModel1", "testMake1", 2009, LocalDate.now(),2500000));
-            cdm.create(new CarDTO(1,"testBrandTwo","testModel1", "testMake1", 2009, LocalDate.now(),2500000));
-        } catch (Exception e){
-            e.printStackTrace();
-        }
-        System.out.println(cdm.getTotalPriceOfEachCategory());
 
     }
 }
