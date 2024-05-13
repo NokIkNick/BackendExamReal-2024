@@ -60,4 +60,19 @@ public class User {
         }
     }
 
+    public String rolesToString() {
+        StringBuilder stringBuilder = new StringBuilder();
+
+        for (Role role : roles) {
+            stringBuilder.append(role.getName()).append(", ");
+        }
+
+        // Fjerner det sidste komma og mellemrum
+        if (stringBuilder.length() > 0) {
+            stringBuilder.setLength(stringBuilder.length() - 2);
+        }
+
+        return stringBuilder.toString();
+    }
+
 }
