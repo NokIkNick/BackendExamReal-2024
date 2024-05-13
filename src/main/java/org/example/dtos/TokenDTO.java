@@ -12,6 +12,7 @@ public class TokenDTO {
 
     private String token;
     private String username;
+    private String roles;
 
 
 }

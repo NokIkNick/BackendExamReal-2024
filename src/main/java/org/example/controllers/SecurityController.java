@@ -45,7 +45,7 @@ public class SecurityController {
 
 
                 String token = tokenUtils.createToken(new UserDTO(created));
-                ctx.status(HttpStatus.CREATED).json(new TokenDTO(token, userInput.getUsername()));
+                ctx.status(HttpStatus.CREATED).json(new TokenDTO(token, userInput.getUsername(), created.getRolesToString().toString()));
             }catch(EntityExistsException | ApiException e){
                 ctx.status(HttpStatus.UNPROCESSABLE_CONTENT);
                 ctx.json(returnObject.put("msg", "User already exists"));
@@ -62,7 +62,7 @@ public class SecurityController {
 
                 User verifiedUserEntity = securityDao.getVerifiedUser(user.getUsername(), user.getPassword());
                 String token = tokenUtils.createToken(new UserDTO(verifiedUserEntity));
-                ctx.status(200).json(new TokenDTO(token, user.getUsername()));
+                ctx.status(200).json(new TokenDTO(token, user.getUsername(), verifiedUserEntity.getRolesToString().toString()));
 
             }catch(EntityNotFoundException | ValidationException | ApiException e){
                 ctx.status(401);
